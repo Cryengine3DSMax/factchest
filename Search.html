@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Search</title>
+		<script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+		<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="Search.js"></script>
+		<link rel="stylesheet" type="text/css" href="Search.css">
+	</head>
+	<body>
+		<div class="topbar">
+			<ul>
+				<li>
+				<a href="home.html" id="toptext" class="name">Fact Chest</a>
+				</li>
+				<li>
+				<a href="addcollection.html" id="toptext">add to collection</a>
+				</li>
+				<li>
+				<a href="#" id="toptext">search</a>
+				</li>
+			</ul>
+		</div>
+		<div class="body">
+			<form>
+				<input type="text" id="query">
+				<br>
+				<br>
+				<input type="text" id="number">
+			</form>
+			<button class="btn" id="search">Search</button>
+			<button class="btn" id="like">Like</button>
+		</div>
+	</body>
+</html>
